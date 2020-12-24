@@ -7,7 +7,7 @@ body {
 h2 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #303030;
+    color: black;
     font-weight: 600;
     margin-bottom: 30px;
 }
@@ -15,9 +15,29 @@ h2 {
 h4 {
     font-size: 19px;
     line-height: 1.375em;
-    color: #303030;
+    color: black;
     font-weight: 400;
     margin-bottom: 30px;
+}
+
+#about {
+    background-image: url('computer.jpg');
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#pricing {
+    background-image: url('Building.jpg');
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .jumbotron {
@@ -37,7 +57,7 @@ h4 {
 
 .logo-small {
     color: #f4511e;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .logo {
@@ -131,7 +151,7 @@ h4 {
 
 .navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color: #302f2f;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -161,7 +181,9 @@ footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
     color: #f4511e;
+
 }
+
 
 .slideanim {
     visibility: hidden;
@@ -215,4 +237,37 @@ footer .glyphicon {
     .logo {
         font-size: 150px;
     }
+}
+
+.glyphicon {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+}
+
+.glyphicon-certificate {
+    color: rgb(88, 88, 214);
+}
+
+.small {
+    font-size: 12px;
+    color: rgb(101, 101, 218);
+}
+
+.fa {
+    padding: 3px;
+    color: white;
+    background-color: rgb(101, 101, 218);
+}
+
+#contact {
+    color: white;
+    background-color: #303030;
+    height: 500px;
+}
+
+.headings {
+    color: white;
 }
